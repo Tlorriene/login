@@ -3,7 +3,8 @@
   font-style: italic;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   align-items: center;
-  background-image: -moz-repeating-linear-gradient(80deg, green, aqua, white);
+  background-color: black;
+  color: white;
 }
 
 .auth-form-container, .login-form, .register-form {
@@ -12,6 +13,7 @@
   width: 60%;
   align-items: center;
   padding-block: 10px;
+  color: white;
 }
 
 @media screen and (min-width:600px) {
@@ -27,11 +29,13 @@
 label {
   text-align: center;
   padding: 10px;
+  color: white;
 }
 
 input {
   text-align: center;
   padding: 10px;
+  
 }
 
 button {
